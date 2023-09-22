@@ -26,3 +26,6 @@ int main(int argc, char* argv[])
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
+//https://cyber-dojo.org/creator/home
+//•https://sangwook.github.io/2014/04/25/tdd-is-dead-long-live-testing.html 
+//•https://jinson.tistory.com/271 

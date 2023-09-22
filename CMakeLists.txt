@@ -16,3 +16,6 @@ target_link_libraries(mytests PRIVATE fizzBuzz gtest) # link google test to this
 
 include(GoogleTest)
 gtest_discover_tests(mytests) # discovers tests by asking the compiled test executable to enumerate its tests
+
+
+#additional install : lizard pip install lizard
