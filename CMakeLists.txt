@@ -6,7 +6,7 @@ enable_testing() #to  discover tests in test explorer
 
 add_library(fizzBuzz hiker.c)
 
-add_subdirectory(googletest) # add googletest subdirectory
+add_subdirectory(googletest) # add googletest subdirectory  [git clone https://github.com/google/googletest/ googletest]
 
 include_directories(googletest/include) # this is so we can #include <gtest/gtest.h>
 
